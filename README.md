@@ -9,7 +9,7 @@ Ferramentas utilzadas no curso
 Instalação do MongoDB
 - baixar pacote tgz e descompactar onde preferir
 - sudo nano /etc/environment
-- acrescentar ao final do PATH :<caminho-do-bin> (ex:/opt/mongodb/bin)
+- acrescentar ao final do PATH :#caminho-do-bin# (ex:/opt/mongodb/bin)
 - source /etc/environment
 - sudo mkdir /data
 - sudo mkdir /data/db
@@ -19,7 +19,7 @@ Instalação do MongoDB
 Instalação do Node
 - baixar pacote tgz LTS e descompactar onde preferir
 - sudo nano /etc/environment
-- acrescentar ao final do PATH :<caminho-do-bin> (ex:/opt/node/bin)
+- acrescentar ao final do PATH :#caminho-do-bin# (ex:/opt/node/bin)
 - source /etc/environment
 - node -v
 
@@ -37,8 +37,8 @@ Instalação do VS Code
      "workbench.editor.enablePreview": false,
      "workbench.colorTheme": "Atom One Dark",
      "workbench.colorCustomizations": {
-     "editor.background": "#1E1E1E",
-     "tab.activeBackground": "#1E1E1E"
+          "editor.background": "#1E1E1E",
+          "tab.activeBackground": "#1E1E1E"
      },
      "editor.fontFamily": "'Noto Mono', 'Courier New', monospace"
     }
