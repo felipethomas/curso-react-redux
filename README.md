@@ -58,7 +58,8 @@ Configuração do projeto "exercicios_react"
 
 Configuração do projeto "todo-app" parte "backend"
 - cd backend
-- npm i --save-dev body-parser@1.15.2 express@4.14.0 mongoose@4.7.0 node-restful@0.2.5 pm2@2.1.5 nodemon@1.11.0
+- npm i --save -E body-parser@1.15.2 express@4.14.0 mongoose@4.7.0 node-restful@0.2.5 pm2@2.1.5 nodemon@1.11.0
+- npm i --save-dev -E nodemon@1.11.0
 - mongod
 - npm run production
 - ./node_modules/.bin/pm2 monit
