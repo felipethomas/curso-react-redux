@@ -75,3 +75,9 @@ Configuração do projeto "exercicios_react_redux"
 - npm i
 - npm run dev
 - http://localhost:8080
+
+Configuração do projeto "todo-app-redux"
+- cd frontend
+- npm i --save-dev redux@3.6.0 react-redux@5.0.2 redux-promise@0.5.3 redux-multi@0.1.12 redux-thunk@2.2.0
+- npm run dev
+- http://localhost:8080
