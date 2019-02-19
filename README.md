@@ -58,15 +58,15 @@ Configuração do projeto "exercicios_react"
 
 Configuração do projeto "todo-app" parte "backend"
 - cd backend
-- npm i --save -E body-parser@1.15.2 express@4.14.0 mongoose@4.7.0 node-restful@0.2.5 pm2@2.1.5 nodemon@1.11.0
-- npm i --save-dev -E nodemon@1.11.0
+- npm i --save -E body-parser@1.18.3 express@4.16.4 mongoose@5.4.13 node-restful@0.2.5 pm2@3.3.0 nodemon@1.18.10
+- npm i --save-dev -E nodemon@1.18.10
 - mongod
 - npm run production
 - ./node_modules/.bin/pm2 monit
 
 Configuração do projeto "todo-app" parte "frontend"
 - cd frontend
-- npm i --save-dev webpack@1.14.0 webpack-dev-server@1.16.2 babel-core@6.22.1 babel-loader@6.2.10 babel-plugin-react-html-attrs@2.0.0 babel-plugin-transform-object-rest-spread@6.22.0 babel-preset-es2015@6.22.0 babel-preset-react@6.22.0 extract-text-webpack-plugin@1.0.1 css-loader@0.26.1 style-loader@0.13.1 file-loader@0.9.0 bootstrap@3.3.7 font-awesome@4.7.0 react@15.4.2 react-dom@15.4.2 react-router@3.0.2 axios@0.15.3
+- npm i --save-dev webpack@1.14.0 webpack-dev-server@1.16.2 babel-core@6.22.1 babel-loader@6.2.10 babel-plugin-react-html-attrs@2.0.0 babel-plugin-transform-object-rest-spread@6.22.0 babel-preset-es2015@6.22.0 babel-preset-react@6.22.0 extract-text-webpack-plugin@1.0.1 css-loader@0.26.1 style-loader@0.13.1 file-loader@0.9.0 bootstrap@3.4.0 font-awesome@4.7.0 react@15.4.2 react-dom@15.4.2 react-router@3.0.2 axios@0.15.3
 - npm run dev
 - http://localhost:8080
 
