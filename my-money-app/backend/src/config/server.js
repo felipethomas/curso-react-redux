@@ -8,3 +8,5 @@ server.use(bodyParser.urlencoded({ extended: true }))
 server.use(bodyParser.json())
 
 server.listen(port, () => console.log(`BACKEND está funcionando na porta ${port}.`))
+
+module.exports = server
